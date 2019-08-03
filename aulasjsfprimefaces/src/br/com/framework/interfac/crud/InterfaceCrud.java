@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 
- * @author adrianoa
+ * @author adrianoabrantesdeandrade
  *
  * @param <T>
  */

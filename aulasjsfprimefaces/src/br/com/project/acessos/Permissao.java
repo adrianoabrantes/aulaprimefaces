@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
+/**
+ * 
+ * @author adrianoabrantesdeandrade
+ *
+ */
 public enum Permissao {
 	ADMIN("ADMIN", "Administrador"), USER("USER", "Usuario Padrao"),
 	CADASTRO_ACESSAR("CADASTRO_ACESSAR", "Cadastro - Acessar"),

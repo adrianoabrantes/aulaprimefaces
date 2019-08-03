@@ -19,7 +19,7 @@ import br.com.framework.implementacao.crud.VariavelConexaoUtil;
 /**
  * Resposavem por estabelecer a conexao com hibernate
  * 
- * @author adrianoa
+ * @author Adriano Abrantes
  *
  */
 @ApplicationScoped

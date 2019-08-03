@@ -8,7 +8,11 @@ import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-
+/**
+ * 
+ * @author adrianoabrantesdeandrade
+ *
+ */
 @Component
 @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
 public class SimpleJdbcTemplateImpl extends SimpleJdbcTemplate implements Serializable {

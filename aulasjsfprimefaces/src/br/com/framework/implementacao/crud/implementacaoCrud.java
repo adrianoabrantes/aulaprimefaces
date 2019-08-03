@@ -15,7 +15,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.framework.hibernate.session.HibernateUtil;
 import br.com.framework.interfac.crud.InterfaceCrud;
-
+/**
+ * 
+ * @author adrianoabrantesdeandrade
+ *
+ */
 @Component
 @Transactional
 public class implementacaoCrud<T> implements InterfaceCrud<T> {

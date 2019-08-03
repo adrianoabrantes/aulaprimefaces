@@ -1,7 +1,7 @@
 package br.com.framework.implementacao.crud;
 /**
  *  Nome do caminho do JNDI datasource Tomcat
- * @author adrianoa
+ * @author adrianoabrantesdeandrade
  *
  */
 public class VariavelConexaoUtil {
